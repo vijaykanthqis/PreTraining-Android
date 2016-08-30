@@ -3,17 +3,17 @@ public class Test
 {
 	public static void main(String[] a) {
 
-		Circle obj2=new Circle(5.20,"Red",false);
+		Circle obj2=new Circle(2.34,"blue",true);
 		System.out.println(obj2.toString());
 		System.out.println("Area of Circle is "+obj2.getArea());
 		System.out.println("Perimeter of Circle is "+obj2.getPerimeter());
 
-		Rectangle obj3=new Rectangle(5,4,"Green",false);
+		Rectangle obj3=new Rectangle(8,9,"green",false);
 		System.out.println(obj3.toString());
 		System.out.println("Area of Rectangle is "+obj3.getArea());
 		System.out.println("Perimeter of Rectangle is "+obj3.getPerimeter());
 
-		Square obj4=new Square(5.20,"Green",false);
+		Square obj4=new Square(5.67,"red",true);
 		System.out.println(obj4.toString());
 		System.out.println("Area of Square is "+obj4.getArea());
 		System.out.println("Perimeter of Square is "+obj4.getPerimeter());
